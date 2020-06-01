@@ -1,0 +1,492 @@
+UID PID CMD  
+root 1 /lib/systemd/systemd --system --deserialize
+root 2 [kthreadd]  
+root 3 [rcu_gp]  
+root 4 [rcu_par_gp]  
+root 6 [kworker/0:0H-kb]  
+root 9 [mm_percpu_wq]  
+root 10 [ksoftirqd/0]  
+root 11 [rcu_sched]  
+root 12 [migration/0]  
+root 13 [idle_inject/0]  
+root 14 [cpuhp/0]  
+root 15 [cpuhp/1]  
+root 16 [idle_inject/1]  
+root 17 [migration/1]  
+root 18 [ksoftirqd/1]  
+root 20 [kworker/1:0H-kb]  
+root 21 [cpuhp/2]  
+root 22 [idle_inject/2]  
+root 23 [migration/2]  
+root 24 [ksoftirqd/2]  
+root 26 [kworker/2:0H-kb]  
+root 27 [cpuhp/3]  
+root 28 [idle_inject/3]  
+root 29 [migration/3]  
+root 30 [ksoftirqd/3]  
+root 32 [kworker/3:0H-kb]  
+root 33 [cpuhp/4]  
+root 34 [idle_inject/4]  
+root 35 [migration/4]  
+root 36 [ksoftirqd/4]  
+root 38 [kworker/4:0H-kb]  
+root 39 [cpuhp/5]  
+root 40 [idle_inject/5]  
+root 41 [migration/5]  
+root 42 [ksoftirqd/5]  
+root 44 [kworker/5:0H-kb]  
+root 45 [cpuhp/6]  
+root 46 [idle_inject/6]  
+root 47 [migration/6]  
+root 48 [ksoftirqd/6]  
+root 50 [kworker/6:0H-kb]  
+root 51 [cpuhp/7]  
+root 52 [idle_inject/7]  
+root 53 [migration/7]  
+root 54 [ksoftirqd/7]  
+root 56 [kworker/7:0H-kb]  
+root 57 [kdevtmpfs]  
+root 58 [netns]  
+root 59 [rcu_tasks_kthre]  
+root 60 [kauditd]  
+root 63 [khungtaskd]  
+root 64 [oom_reaper]  
+root 65 [writeback]  
+root 66 [kcompactd0]  
+root 67 [ksmd]  
+root 68 [khugepaged]  
+root 161 [kintegrityd]  
+root 162 [kblockd]  
+root 163 [blkcg_punt_bio]  
+root 165 [tpm_dev_wq]  
+root 166 [ata_sff]  
+root 167 [md]  
+root 168 [edac-poller]  
+root 169 [devfreq_wq]  
+root 170 [watchdogd]  
+root 173 [kswapd0]  
+root 175 [ecryptfs-kthrea]  
+root 178 [kthrotld]  
+root 179 [acpi_thermal_pm]  
+root 181 [ipv6_addrconf]  
+root 194 [kstrp]  
+root 216 [charger_manager]  
+root 280 [scsi_eh_0]  
+root 281 [scsi_tmf_0]  
+root 282 [scsi_eh_1]  
+root 283 [scsi_tmf_1]  
+root 284 [scsi_eh_2]  
+root 285 [scsi_tmf_2]  
+root 286 [scsi_eh_3]  
+root 287 [scsi_tmf_3]  
+root 288 [scsi_eh_4]  
+root 289 [scsi_tmf_4]  
+root 290 [scsi_eh_5]  
+root 291 [scsi_tmf_5]  
+root 299 [kworker/4:1H-kb]  
+root 300 [kworker/6:1H-kb]  
+root 330 [kworker/5:1H-kb]  
+root 333 [kworker/2:1H-kb]  
+root 334 [kworker/3:1H-kb]  
+root 335 [jbd2/sda3-8]  
+root 336 [ext4-rsv-conver]  
+root 338 [kworker/1:1H-kb]  
+root 347 [kworker/0:1H-kb]  
+root 351 [kworker/7:1H-kb]  
+root 399 [rpciod]  
+root 400 [xprtiod]  
+root 405 /usr/sbin/blkmapd  
+root 456 [loop1]  
+root 466 [loop2]  
+root 469 [irq/32-mei_me]  
+root 474 [loop3]  
+root 495 [cryptd]  
+root 501 [led_workqueue]  
+root 510 sshd: bee25 [priv]
+root 530 sshd: bee05 [priv]
+root 538 [loop5]  
+root 567 [loop6]  
+root 597 [loop7]  
+bee05 599 sshd: bee05@pts/11 
+bee05 600 -bash  
+root 606 [nv_queue]  
+root 607 [nv_queue]  
+bee25 610 /lib/systemd/systemd --user 
+root 613 [loop8]  
+bee25 617 (sd-pam)  
+root 630 sshd: bee25 [priv]
+root 632 [loop10]  
+root 678 [loop11]  
+root 685 [nvidia-modeset/]  
+root 686 [nvidia-modeset/]  
+bee25 707 sshd: bee25@pts/14 
+cho 718 /share/anaconda3/bin/python -m ipykernel_launcher
+root 759 [loop13]  
+root 761 [loop14]  
+root 762 [UVM global queu]
+root 763 [UVM deferred re]
+root 765 [UVM Tools Event]
+root 776 [loop15]  
+bee25 795 sshd: bee25@notty 
+bee25 796 /usr/lib/openssh/sftp-server  
+root 798 [jbd2/sdb1-8]  
+root 799 [ext4-rsv-conver]  
+root 800 [jbd2/sdc1-8]  
+root 801 [ext4-rsv-conver]  
+bee25 807 -bash  
+root 822 /usr/sbin/rpc.idmapd  
+root 835 /sbin/rpcbind -f -w
+root 922 /lib/systemd/systemd-logind  
+avahi 924 avahi-daemon: running [Dasan.local]
+root 928 /usr/lib/udisks2/udisksd  
+root 929 /usr/sbin/thermald --no-daemon --dbus-enable
+syslog 935 /usr/sbin/rsyslogd -n 
+root 937 /usr/lib/accountsservice/accounts-daemon  
+root 939 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+avahi 942 avahi-daemon: chroot helper
+root 956 /usr/sbin/ModemManager --filter-policy=strict 
+root 963 /usr/sbin/irqbalance --foreground 
+message+ 965 /usr/bin/dbus-daemon --system --address=systemd:
+root 1011 /usr/sbin/NetworkManager --no-daemon 
+root 1012 /usr/sbin/cron -f 
+root 1013 /sbin/wpa_supplicant -u -s
+root 1014 /usr/sbin/acpid  
+root 1016 /usr/lib/snapd/snapd  
+nvidia-+ 1017 /usr/bin/nvidia-persistenced --user nvidia-persistenced
+root 1023 /usr/lib/policykit-1/polkitd --no-debug 
+root 1026 sshd: bee22 [priv]
+bee22 1102 /lib/systemd/systemd --user 
+bee22 1103 (sd-pam)  
+root 1125 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root 1129 /usr/sbin/rpc.mountd --manage-gids 
+root 1133 [lockd]  
+root 1134 /usr/sbin/sshd -D 
+root 1137 [nfsd]  
+root 1138 [nfsd]  
+root 1139 [nfsd]  
+root 1140 [nfsd]  
+root 1141 [nfsd]  
+root 1142 [nfsd]  
+root 1143 [nfsd]  
+root 1144 [nfsd]  
+whoopsie 1175 /usr/bin/whoopsie -f 
+dhcpd 1181 dhcpd -user dhcpd
+root 1197 [nfsiod]  
+root 1207 bpfilter_umh  
+bee22 1208 sshd: bee22@pts/15 
+root 1209 sshd: bee22 [priv]
+bee22 1275 sshd: bee22@notty 
+bee22 1282 /usr/lib/openssh/sftp-server  
+bee22 1299 -bash  
+root 1357 /var/lib/gridengine/bin/lx-amd64/sge_qmaster  
+bee22 1394 /share/anaconda3/bin/python /share/anaconda3/bin/jupyter-notebook 
+bee22 1399 /usr/bin/dbus-daemon --session --address=systemd:
+root 1490 /var/lib/gridengine/bin/lx-amd64/sge_execd  
+bee22 1510 /usr/lib/firefox/firefox -new-tab file:///home/bee22/.local/share/jupyter/runtime/nbserver-1394-open.html
+bee22 1514 /usr/lib/firefox/firefox -new-tab file:///home/bee22/.local/share/jupyter/runtime/nbserver-1394-open.html
+bee22 1570 /usr/lib/gvfs/gvfsd  
+bee22 1575 /usr/lib/gvfs/gvfsd-fuse /run/user/822/gvfs -f
+bee49 1611 sleep 1 
+bee05 1612 ps -ef 
+bee05 1613 awk {print $1,
+root 1656 [NFSv4 callback] 
+kernoops 1670 /usr/sbin/kerneloops --test 
+kernoops 1679 /usr/sbin/kerneloops  
+root 1693 /usr/sbin/gdm3  
+root 1748 /usr/lib/upower/upowerd  
+root 1766 gdm-session-worker [pam/gdm-launch-environment] 
+gdm 1811 /lib/systemd/systemd --user 
+gdm 1812 (sd-pam)  
+gdm 1823 /usr/lib/gdm3/gdm-x-session gnome-session --autostart
+root 1825 /usr/lib/xorg/Xorg vt1 -displayfd
+root 1828 [irq/34-nvidia]  
+root 1829 [nvidia]  
+root 1830 [nv_queue]  
+gdm 1834 /usr/bin/dbus-daemon --session --address=systemd:
+gdm 1840 /usr/lib/gnome-session/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm 1842 /usr/lib/at-spi2-core/at-spi-bus-launcher  
+gdm 1847 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork
+gdm 1849 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session 
+gdm 1858 /usr/bin/gnome-shell  
+gdm 1866 /usr/bin/pulseaudio --daemonize=no 
+rtkit 1867 /usr/lib/rtkit/rtkit-daemon  
+gdm 1886 ibus-daemon --xim --panel
+gdm 1889 /usr/lib/ibus/ibus-dconf  
+gdm 1892 /usr/lib/ibus/ibus-x11 --kill-daemon 
+gdm 1894 /usr/lib/ibus/ibus-portal  
+gdm 1904 /usr/libexec/xdg-permission-store  
+root 1913 /usr/lib/x86_64-linux-gnu/boltd  
+root 1915 /usr/lib/packagekit/packagekitd  
+gdm 1916 /usr/lib/gnome-settings-daemon/gsd-xsettings  
+gdm 1922 /usr/lib/gnome-settings-daemon/gsd-a11y-settings  
+gdm 1925 /usr/lib/gnome-settings-daemon/gsd-clipboard  
+gdm 1929 /usr/lib/gnome-settings-daemon/gsd-color  
+gdm 1930 /usr/lib/gnome-settings-daemon/gsd-datetime  
+gdm 1933 /usr/lib/gnome-settings-daemon/gsd-housekeeping  
+gdm 1934 /usr/lib/gnome-settings-daemon/gsd-keyboard  
+gdm 1941 /usr/lib/gnome-settings-daemon/gsd-media-keys  
+gdm 1942 /usr/lib/gnome-settings-daemon/gsd-mouse  
+gdm 1948 /usr/lib/gnome-settings-daemon/gsd-power  
+gdm 1950 /usr/lib/gnome-settings-daemon/gsd-print-notifications  
+gdm 1955 /usr/lib/gnome-settings-daemon/gsd-rfkill  
+gdm 1956 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy  
+gdm 1962 /usr/lib/gnome-settings-daemon/gsd-sharing  
+gdm 1964 /usr/lib/gnome-settings-daemon/gsd-smartcard  
+gdm 1974 /usr/lib/gnome-settings-daemon/gsd-sound  
+gdm 1975 /usr/lib/gnome-settings-daemon/gsd-wacom  
+colord 1990 /usr/lib/colord/colord  
+gdm 2010 /usr/lib/ibus/ibus-engine-simple  
+root 2161 [kworker/1:0-eve]  
+root 3305 [kworker/7:1-eve]  
+root 5768 sshd: bee26 [priv]
+bee26 5782 /lib/systemd/systemd --user 
+bee26 5783 (sd-pam)  
+root 5831 sshd: bee26 [priv]
+bee26 5860 sshd: bee26@pts/21 
+bee26 5862 -bash  
+bee26 5955 sshd: bee26@notty 
+bee26 5956 /usr/lib/openssh/sftp-server  
+bee23 6367 /usr/bin/pulseaudio --start --log-target=syslog
+bee23 7876 /usr/lib/gvfs/gvfs-udisks2-volume-monitor  
+bee23 7880 /usr/lib/gvfs/gvfs-mtp-volume-monitor  
+bee23 7884 /usr/lib/gvfs/gvfs-goa-volume-monitor  
+bee23 7888 /usr/lib/gnome-online-accounts/goa-daemon  
+bee23 7895 /usr/lib/gnome-online-accounts/goa-identity-service  
+bee23 7900 /usr/lib/gvfs/gvfs-afc-volume-monitor  
+bee23 7905 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor  
+bee23 7909 /usr/lib/gvfs/gvfsd-trash --spawner :1.4
+bee23 7921 /usr/lib/gvfs/gvfsd-network --spawner :1.4
+bee23 7940 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.4
+bee23 7995 /usr/lib/dconf/dconf-service  
+cho 8100 /share/anaconda3/bin/python -c from
+root 8218 [kworker/0:2-eve]  
+root 8597 [kworker/2:2-eve]  
+bee23 8659 /usr/bin/gnome-keyring-daemon --start --foreground
+bee05 8873 /lib/systemd/systemd --user 
+bee05 8874 (sd-pam)  
+bee23 9056 /lib/systemd/systemd --user 
+bee23 9057 (sd-pam)  
+root 9303 [kworker/4:2-mm_]  
+bee19 9798 /share/anaconda3/bin/python -c from
+bee19 9799 /share/anaconda3/bin/python -m joblib.externals.loky.backend.popen_loky_posix
+bee19 9800 /share/anaconda3/bin/python -m joblib.externals.loky.backend.popen_loky_posix
+bee19 9801 /share/anaconda3/bin/python -m joblib.externals.loky.backend.popen_loky_posix
+bee19 9802 /share/anaconda3/bin/python -m joblib.externals.loky.backend.popen_loky_posix
+bee19 9805 /share/anaconda3/bin/python -c from
+bee19 9806 /share/anaconda3/bin/python -c from
+bee19 9807 /share/anaconda3/bin/python -c from
+bee19 9808 /share/anaconda3/bin/python -c from
+bee19 9809 /share/anaconda3/bin/python -c from
+root 10078 sshd: bee23 [priv]
+root 10106 sshd: bee23 [priv]
+root 10119 [loop17]  
+bee23 10160 sshd: bee23@pts/0 
+bee23 10175 -bash  
+bee23 10242 sshd: bee23@notty 
+bee23 10243 /usr/lib/openssh/sftp-server  
+root 10288 [kworker/7:2-cgr]  
+bee23 10523 /share/anaconda3/bin/python /share/anaconda3/bin/jupyter-notebook 
+cho 10718 /share/anaconda3/bin/python -m ipykernel_launcher
+root 10750 [kworker/3:0-cgr]  
+root 10828 [loop12]  
+bee23 11324 /share/anaconda3/bin/python -m ipykernel_launcher
+cho 11406 /share/anaconda3/bin/python -c from
+bee23 11445 /share/anaconda3/bin/python -c from
+root 11877 [kworker/1:1-cgr]  
+root 12252 sshd: bee16 [priv]
+bee16 12266 /lib/systemd/systemd --user 
+bee16 12267 (sd-pam)  
+root 12293 sshd: bee16 [priv]
+root 12341 [loop9]  
+bee16 12344 sshd: bee16@pts/19 
+bee16 12346 -bash  
+bee16 12434 sshd: bee16@notty 
+bee16 12441 /usr/lib/openssh/sftp-server  
+cho 12806 /share/anaconda3/bin/python -m ipykernel_launcher
+cho 12895 /share/anaconda3/bin/python -c from
+root 12930 sshd: bee13 [priv]
+root 12932 sshd: bee13 [priv]
+bee13 12933 /lib/systemd/systemd --user 
+bee13 12934 (sd-pam)  
+bee13 13030 sshd: bee13@pts/13 
+bee13 13044 -bash  
+bee13 13098 sshd: bee13@notty 
+bee13 13099 /usr/lib/openssh/sftp-server  
+bee49 13260 bash -c while
+bee13 13348 /share/anaconda3/bin/python /share/anaconda3/bin/jupyter-notebook 
+bee13 13550 /share/anaconda3/bin/python -m ipykernel_launcher
+bee13 14206 /share/anaconda3/bin/python -c from
+root 14279 sshd: bee14 [priv]
+bee14 14293 /lib/systemd/systemd --user 
+bee14 14294 (sd-pam)  
+root 14319 sshd: bee14 [priv]
+bee14 14430 sshd: bee14@pts/2 
+bee14 14432 -bash  
+bee14 14519 sshd: bee14@notty 
+bee14 14520 /usr/lib/openssh/sftp-server  
+root 15162 sshd: bee07 [priv]
+bee07 15170 /lib/systemd/systemd --user 
+root 15171 [xfsalloc]  
+bee07 15172 (sd-pam)  
+root 15173 [xfs_mru_cache]  
+root 15179 sshd: bee07 [priv]
+root 15182 [jfsIO]  
+root 15183 [jfsCommit]  
+root 15184 [jfsCommit]  
+root 15185 [jfsCommit]  
+root 15186 [jfsCommit]  
+root 15187 [jfsCommit]  
+root 15188 [jfsCommit]  
+root 15189 [jfsCommit]  
+root 15190 [jfsCommit]  
+root 15191 [jfsSync]  
+bee07 15260 sshd: bee07@pts/3 
+bee07 15261 -bash  
+bee16 15285 /share/anaconda3/bin/python /share/anaconda3/bin/jupyter-notebook 
+bee07 15336 sshd: bee07@notty 
+bee07 15343 /usr/lib/openssh/sftp-server  
+bee16 15556 /share/anaconda3/bin/python -m ipykernel_launcher
+root 15599 sshd: bee42 [priv]
+bee42 15607 /lib/systemd/systemd --user 
+bee42 15608 (sd-pam)  
+root 15624 sshd: bee42 [priv]
+bee42 15691 sshd: bee42@pts/17 
+bee42 15708 -bash  
+bee42 15774 sshd: bee42@notty 
+bee42 15775 /usr/lib/openssh/sftp-server  
+root 16761 /usr/sbin/cupsd -l 
+root 16762 /usr/sbin/cups-browsed  
+root 16769 [kworker/0:0-cgr]  
+root 16865 sshd: lab00 [priv]
+lab00 16885 /lib/systemd/systemd --user 
+lab00 16886 (sd-pam)  
+root 16901 [kworker/2:1-cgr]  
+root 16942 [loop16]  
+lab00 16968 sshd: lab00@pts/9 
+lab00 16969 -bash  
+lab00 17334 /share/anaconda3/bin/python /share/anaconda3/bin/jupyter-notebook 
+lab00 17821 /share/anaconda3/bin/python -m ipykernel_launcher
+bee16 18108 /share/anaconda3/bin/python -c from
+lab00 18159 /share/anaconda3/bin/python -m ipykernel_launcher
+root 18833 sshd: lab02 [priv]
+lab02 18909 sshd: lab02@notty 
+lab02 18910 /usr/lib/openssh/sftp-server  
+root 18917 sshd: lab00 [priv]
+lab00 19057 sshd: lab00@pts/7 
+lab00 19058 -bash  
+root 19139 [loop0]  
+root 19680 [kworker/6:2-eve]  
+root 19764 [kworker/u17:2-x]  
+lab00 20001 /share/anaconda3/bin/python -m ipykernel_launcher
+bee07 20137 /share/anaconda3/bin/python /share/anaconda3/bin/jupyter-notebook 
+bee07 20237 /share/anaconda3/bin/python -m ipykernel_launcher
+bee07 20326 /share/anaconda3/bin/python -c from
+root 20516 [kworker/u17:1-x]  
+root 20702 sshd: bee42 [priv]
+root 20730 sshd: bee42 [priv]
+bee42 20782 sshd: bee42@pts/18 
+bee42 20798 -bash  
+bee42 20864 sshd: bee42@notty 
+bee42 20865 /usr/lib/openssh/sftp-server  
+root 20977 sshd: lab00 [priv]
+lab00 21056 sshd: lab00@notty 
+lab00 21057 /usr/lib/openssh/sftp-server  
+root 21453 [kworker/u16:1-e]  
+bee16 22073 /share/anaconda3/bin/python -c from
+bee16 22080 /share/anaconda3/bin/python -c from
+bee21 22367 /lib/systemd/systemd --user 
+bee21 22368 (sd-pam)  
+bee14 22409 /share/anaconda3/bin/python /share/anaconda3/bin/jupyter-notebook 
+bee14 22630 /share/anaconda3/bin/python -m ipykernel_launcher
+bee21 22928 /usr/bin/dbus-daemon --session --address=systemd:
+bee21 23248 /usr/lib/gvfs/gvfsd  
+bee21 23253 /usr/lib/gvfs/gvfsd-fuse /run/user/821/gvfs -f
+bee21 23422 /usr/lib/at-spi2-core/at-spi-bus-launcher  
+bee18 23648 /lib/systemd/systemd --user 
+bee18 23649 (sd-pam)  
+root 23674 sshd: bee18 [priv]
+bee18 23792 sshd: bee18@notty 
+bee18 23815 /usr/lib/openssh/sftp-server  
+root 23947 sshd: bee20 [priv]
+bee20 23997 /lib/systemd/systemd --user 
+bee20 23998 (sd-pam)  
+root 24002 sshd: bee20 [priv]
+root 24031 [kworker/6:0-cgr]  
+bee20 24075 sshd: bee20@pts/8 
+bee21 24100 /share/anaconda3/bin/python -c from
+bee21 24101 /share/anaconda3/bin/python -m joblib.externals.loky.backend.popen_loky_posix
+bee21 24102 /share/anaconda3/bin/python -m joblib.externals.loky.backend.popen_loky_posix
+bee21 24103 /share/anaconda3/bin/python -m joblib.externals.loky.backend.popen_loky_posix
+bee21 24104 /share/anaconda3/bin/python -m joblib.externals.loky.backend.popen_loky_posix
+bee21 24107 /share/anaconda3/bin/python -c from
+bee21 24108 /share/anaconda3/bin/python -c from
+bee21 24109 /share/anaconda3/bin/python -c from
+bee21 24110 /share/anaconda3/bin/python -c from
+bee21 24111 /share/anaconda3/bin/python -c from
+bee20 24150 sshd: bee20@notty 
+bee20 24151 /usr/lib/openssh/sftp-server  
+bee20 24164 -bash  
+bee20 24378 /share/anaconda3/bin/python /share/anaconda3/bin/jupyter-notebook 
+bee42 24408 less rcsb_pdb_3EYG.fasta 
+bee20 24754 /share/anaconda3/bin/python -m ipykernel_launcher
+bee23 24904 /share/anaconda3/bin/python -m ipykernel_launcher
+bee49 24977 /lib/systemd/systemd --user 
+bee49 24978 (sd-pam)  
+root 25213 sshd: bee49 [priv]
+bee49 25279 sshd: bee49@pts/4 
+root 25280 sshd: bee49 [priv]
+bee49 25285 -bash  
+bee49 25367 sshd: bee49@notty 
+bee49 25368 /usr/lib/openssh/sftp-server  
+root 25581 sshd: lab02 [priv]
+lab02 25589 /lib/systemd/systemd --user 
+lab02 25590 (sd-pam)  
+lab02 25731 sshd: lab02@notty 
+lab02 25732 /usr/lib/openssh/sftp-server  
+lab02 25733 /usr/lib/openssh/sftp-server  
+root 25738 sshd: lab02 [priv]
+lab02 25804 sshd: lab02@notty 
+lab02 25805 /usr/lib/openssh/sftp-server  
+systemd+ 26217 /lib/systemd/systemd-resolved  
+root 26218 [kworker/4:0]  
+systemd+ 26222 /lib/systemd/systemd-timesyncd  
+root 26226 /lib/systemd/systemd-journald  
+root 26455 /lib/systemd/systemd-udevd  
+root 27531 [kworker/u16:0-e]  
+root 27863 [kworker/3:2-eve]  
+root 27970 sshd: cho [priv]
+root 27984 sshd: cho [priv]
+cho 27985 /lib/systemd/systemd --user 
+cho 27986 (sd-pam)  
+root 28107 [kworker/5:1-eve]  
+cho 28134 sshd: cho@pts/1 
+cho 28144 -bash  
+cho 28200 sshd: cho@notty 
+cho 28208 /usr/lib/openssh/sftp-server  
+bee19 29078 /lib/systemd/systemd --user 
+bee19 29079 (sd-pam)  
+root 29388 [kworker/u16:2-e]  
+cho 30242 /share/anaconda3/bin/python /share/anaconda3/bin/jupyter-notebook 
+cho 30544 /share/anaconda3/bin/python -m ipykernel_launcher
+bee23 30574 /usr/bin/dbus-daemon --session --address=systemd:
+root 30738 sshd: cho [priv]
+root 30758 sshd: cho [priv]
+cho 30825 sshd: cho@pts/12 
+cho 30826 -bash  
+bee23 30845 /usr/lib/gvfs/gvfsd  
+bee23 30850 /usr/lib/gvfs/gvfsd-fuse /run/user/823/gvfs -f
+cho 30904 sshd: cho@notty 
+cho 30905 /usr/lib/openssh/sftp-server  
+bee23 30986 /usr/lib/at-spi2-core/at-spi-bus-launcher  
+bee05 31527 /share/anaconda3/bin/python /share/anaconda3/bin/jupyter-notebook 
+root 31611 [kworker/5:0-rcu]  
+cho 31697 /share/anaconda3/bin/python /share/anaconda3/bin/jupyter-notebook 
+root 32094 [kworker/5:2-eve]  
+root 32195 sshd: cho [priv]
+bee20 32206 /share/anaconda3/bin/python -c from
+root 32215 sshd: cho [priv]
+cho 32384 sshd: cho@notty 
+cho 32385 /usr/lib/openssh/sftp-server  
+cho 32413 sshd: cho@pts/5 
+cho 32414 -bash  
+root 32486 [kworker/1:2]  
